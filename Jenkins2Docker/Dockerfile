@@ -6,7 +6,7 @@ EXPOSE 443
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
 COPY ["Jenkins2Docker.csproj", "Jenkins2Docker/"]
-RUN dotnet restore "Jenkins2Docker.csproj"
+RUN dotnet restore "Jenkins2Docker/Jenkins2Docker.csproj"
 COPY . .
 WORKDIR "/src/Jenkins2Docker"
 RUN dotnet build "Jenkins2Docker.csproj" -c Release -o /app
