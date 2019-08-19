@@ -15,6 +15,7 @@ namespace Jenkins2Docker
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            var a = 1;
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

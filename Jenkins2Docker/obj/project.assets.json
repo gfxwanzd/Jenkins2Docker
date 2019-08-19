@@ -11909,11 +11909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\Jenkins2Docker\\Jenkins2Docker\\Jenkins2Docker.csproj",
+      "projectUniqueName": "D:\\project\\Jenkins2Dock\\Jenkins2Docker\\Jenkins2Docker.csproj",
       "projectName": "Jenkins2Docker",
-      "projectPath": "D:\\project\\Jenkins2Docker\\Jenkins2Docker\\Jenkins2Docker.csproj",
+      "projectPath": "D:\\project\\Jenkins2Dock\\Jenkins2Docker\\Jenkins2Docker.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\Jenkins2Docker\\Jenkins2Docker\\obj\\",
+      "outputPath": "D:\\project\\Jenkins2Dock\\Jenkins2Docker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
