@@ -1,20 +1,15 @@
+# base image
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
-WORKDIR /app
+
+
+# 容器里暴露的端口,由于我的Dotnetcore程序使用5000,这里也暴露5000
 EXPOSE 80
-EXPOSE 443
 
-FROM microsoft/dotnet:2.1-sdk AS build
-WORKDIR /src
-COPY ["Jenkins2Docker.csproj", "Jenkins2Docker/"]
-RUN dotnet restore "Jenkins2Docker/Jenkins2Docker.csproj"
-COPY . .
-WORKDIR "/src/Jenkins2Docker"
-RUN dotnet build "Jenkins2Docker.csproj" -c Release -o /app
+# 把当前目录内容拷贝到容器的home目录
+COPY . /home
 
-FROM build AS publish
-RUN dotnet publish "Jenkins2Docker.csproj" -c Release -o /app
+# 设置工作目录
+WORKDIR /home
 
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app .
+# 启动程序
 ENTRYPOINT ["dotnet", "Jenkins2Docker.dll"]
