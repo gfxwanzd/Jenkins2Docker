@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="setup.sh" />
+    <Compile Include="setup.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
