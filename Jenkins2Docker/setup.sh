@@ -1,4 +1,4 @@
-﻿image_version=`date +%Y%m%d%H%M`;
+﻿image_version=`date +"%Y%m%d%H%M"`;
 echo $image_version;
 # cd Jenkins2Docker
 git pull --rebase origin master;
