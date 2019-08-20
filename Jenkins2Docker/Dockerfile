@@ -1,5 +1,5 @@
 # base image
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 
 
 # 容器里暴露的端口,由于我的Dotnetcore程序使用5000,这里也暴露5000
