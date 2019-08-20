@@ -9,7 +9,7 @@ EXPOSE 80
 WORKDIR /home
 
 # 把当前目录内容拷贝到容器的home目录
-COPY . /home
+COPY out ./
 
 
 

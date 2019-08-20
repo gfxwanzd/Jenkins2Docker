@@ -6,7 +6,6 @@ D:\project\Jenkins2Dock\Jenkins2Docker\bin\Debug\netcoreapp2.2\Jenkins2Docker.dl
 D:\project\Jenkins2Dock\Jenkins2Docker\bin\Debug\netcoreapp2.2\Jenkins2Docker.pdb
 D:\project\Jenkins2Dock\Jenkins2Docker\bin\Debug\netcoreapp2.2\Jenkins2Docker.Views.dll
 D:\project\Jenkins2Dock\Jenkins2Docker\bin\Debug\netcoreapp2.2\Jenkins2Docker.Views.pdb
-D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.csprojAssemblyReference.cache
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.csproj.CoreCompileInputs.cache
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.RazorAssemblyInfo.cache
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.RazorAssemblyInfo.cs
