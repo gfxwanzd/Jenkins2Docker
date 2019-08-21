@@ -30,3 +30,4 @@ D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.Vi
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.dll
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.pdb
 D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.csproj.CopyComplete
+D:\project\Jenkins2Dock\Jenkins2Docker\obj\Debug\netcoreapp2.2\Jenkins2Docker.csprojAssemblyReference.cache
